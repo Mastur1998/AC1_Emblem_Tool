@@ -26,7 +26,8 @@ The script assumes you're using duckstation's default keyboard mappings, that is
 d-pad mapped to wasd, the face buttons to ijkl, and the left/right front triggers to 1 and 3.
 Boot up the game, go to your garage and open the emblem editor.
 Press 1 (left trigger) to leave the paint selection on the transparent color.
-Press L (circle) to open a menu, set the zoom to x4, the menu should close itself.
+Press l (circle) to open the menu, set the zoom to x4, the menu should close itself.
+Open the menu again and choose clear, the menu should close and the canvas should be blank.
 Leave the emulator there
 
 Step 5: Edit two lines
