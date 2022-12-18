@@ -61,3 +61,8 @@ For example lets say line 6 and 7 on the bottom left had mistakes, i would type 
 script would re-draw those and only those two lines.
 Keep in mind, every time you restart the script you have to place the color selector on the transparent
 color, the pen tool selected, the cursor ready to draw, and the zoom at x4.
+
+Step 7: Feedback
+I honestly don't expect the script to need any reworks, major fixes or changes, but if anyone wants to reach
+me with suggestions, complaints or just wanna share their emblem, my reddit username is u/DonMastur, or 
+alternatively post at r/armoredcore
