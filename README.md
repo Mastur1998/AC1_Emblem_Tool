@@ -7,7 +7,7 @@ and then 'install now'
 Step 2: Dowloading python packages: 
 Open your cmd window (press windows+r, then type 'cmd' into the small window that appears),
 then type the following commands to intall the necessary packages:
-  'pip install numpy' 
+	'pip install numpy' 
   'pip install opencv-python'  
   'pip install pynput' 
   'pip install pywin32' 
