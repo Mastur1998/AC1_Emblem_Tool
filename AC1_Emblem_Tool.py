@@ -66,9 +66,9 @@ def InputEmblem(color_map, down, right, start=0, end=32):
   print('Drawing current quadrant')
   index = 0
   for i in range(start,end):
+    print('Drawing line ' + str(i))
     if down: i += 32
     i_pair = (i % 2) == 0
-    print('Drawing line ' + str(i))
     for j in range(0,32):
       if i_pair: target = color_map[i][j+32 if right else j]
       else: target = color_map[i][63-j if right else 31-j]
