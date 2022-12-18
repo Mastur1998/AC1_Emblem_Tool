@@ -1,7 +1,7 @@
 I'm writing this guide assuming you know nothing about python
 
 Step 1: Downloading python
-Go to python.org and download the intaller, when installing, mark the "ass to path" checkbox
+Go to python.org and download the intaller, when installing, mark the "add to path" checkbox
 and then 'install now'
 
 Step 2: Dowloading python packages
