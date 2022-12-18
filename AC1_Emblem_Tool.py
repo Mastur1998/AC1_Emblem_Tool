@@ -6,7 +6,7 @@ from time import sleep
 import win32com.client
 
 emulator_name = 'Armored Core (USA)'
-source = 'Emblem.png'
+source = 'Final_Audie.png'
 
 def InputKey(key, seconds):
   ctr().press(key); sleep(seconds); ctr().release(key); sleep(0.05)
@@ -27,7 +27,7 @@ def InputColorPalette(color_palette):
     InputKey('3',0.05)
   print('Color palette set up')
   sleep(2)
-
+  
 def InputEmblem(color_map, down, right, start=0, end=32): 
 ##Drawing the emblem
 ##Moving to selected quadrant
@@ -72,6 +72,9 @@ def InputEmblem(color_map, down, right, start=0, end=32):
     for j in range(0,32):
       if i_pair: target = color_map[i][j+32 if right else j]
       else: target = color_map[i][63-j if right else 31-j]
+      if target == 0:
+        InputKey('d' if i_pair else 'a', 0.05)
+        continue
       right_dist = target - index
       if right_dist < 0: right_dist += 16
       left_dist = index - target
