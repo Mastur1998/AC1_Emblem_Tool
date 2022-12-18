@@ -50,14 +50,15 @@ If you notice one of the lines is not being drawn at the rigth height, you may b
 to move the pointer to the right height.
 If you notice the color selector is not using the rigth color, you may be able to press '1' or '3' to
 move the color selector to the rigth color.
-If you notice the canvas shifted horizontally, that´ll get fixed on it's own.
+If you notice the canvas shifted horizontally, you may be able to hold the opposide directional key and
+trick the script into shifting the canvas to the correct position.
 Once the script is done (or interrupted ny closing the IDLE shell), you can then run it again with various
 settings to fix mistakes by pressign shift+f5.
 Typing 'Palette' will only input the color palette of the image without messing with the emblem,
 likewise, typing 'Emblem' instead will only draw without re-doing the palette.
 You can instead type 'UpLeft', 'UpRight', 'DownLeft' or 'DownRight' to re-draw a specific quadrant of
 the emblem, if you want to re-draw starting from a specific line, type the quadrant and the numer line,
-if you want to re-draw starting and ending on a specific line, type the quadrant and two numbers.
+if you want to re-draw starting and ending on specific lines, type the quadrant and two numbers.
 For example lets say line 6 and 7 on the bottom left had mistakes, i would type 'DownLeft 6 8', and the
 script would re-draw those and only those two lines.
 Keep in mind, every time you restart the script you have to place the color selector on the transparent
