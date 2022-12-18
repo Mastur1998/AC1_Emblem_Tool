@@ -19,7 +19,7 @@ Step 3: Create your emblem:
 I'd recommend usign paint.net for this because its free and it does what its suposed to do
 the image has to be a png, 64x64 pixels in size, and the color palette has to be of at most
 16 unique colors, one of them being the 'transparent' color (alpha value of zero).
-When saving this image, make sure to place it next to the python file.
+This is a good time to tell you to put this scrip and the source image in the same folder.
 
 Step 4: Set up your emulator: 
 The script assumes you're using duckstation's default keyboard mappings, that is,
@@ -28,7 +28,7 @@ Boot up the game, go to your garage and open the emblem editor.
 Press 1 (left trigger) to leave the paint selection on the transparent color.
 Press l (circle) to open the menu, set the zoom to x4, the menu should close itself.
 Open the menu again and choose clear, the menu should close and the canvas should be blank.
-Leave the emulator there
+Leave the emulator there.
 
 Step 5: Edit two lines: 
 On your search bar type 'IDLE' and open the python app.
@@ -36,7 +36,7 @@ Press ctrl+o, find the autopilot script and open it.
 On line 8, change the emulator name to the name your emulator has when hovering over it on the taskbar
 On line 9, change the source name to the filename of the emblem you just made
 Both of these names are caps sensitive, as an alternative you can just put the emulator at the forefront
-manually after starting the script, and set 'Emblem.png' as the emblem filename
+manually after starting the script, and change the name of your source image to 'Emblem.png'
 
 Step 6: Run it!: 
 While youre still with the script open, press f5, the python shell will pull up, after 5 seconds the emulator 
@@ -50,6 +50,7 @@ If you notice one of the lines is not being drawn at the rigth height, you may b
 to move the pointer to the right height.
 If you notice the color selector is not using the rigth color, you may be able to press '1' or '3' to
 move the color selector to the rigth color.
+If you notice the canvas shifted hrizontally, that´ll get fixed on it's own.
 Once the script is done (or interrupted ny closing the IDLE shell), you can then run it again with various
 settings to fix mistakes by pressign shift+f5.
 Typing 'Palette' will only input the color palette of the image without messing with the emblem,
