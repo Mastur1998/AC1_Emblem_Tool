@@ -1,4 +1,4 @@
-I'm writing this guide assuming you know nothing about python
+I'm writing this assuming you know nothing about python
 
 Step 1: Downloading python
 Go to python.org and download the intaller, when installing, mark the "add to path" checkbox
