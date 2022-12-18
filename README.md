@@ -50,7 +50,7 @@ If you notice one of the lines is not being drawn at the rigth height, you may b
 to move the pointer to the right height.
 If you notice the color selector is not using the rigth color, you may be able to press '1' or '3' to
 move the color selector to the rigth color.
-If you notice the canvas shifted hrizontally, that´ll get fixed on it's own.
+If you notice the canvas shifted horizontally, that´ll get fixed on it's own.
 Once the script is done (or interrupted ny closing the IDLE shell), you can then run it again with various
 settings to fix mistakes by pressign shift+f5.
 Typing 'Palette' will only input the color palette of the image without messing with the emblem,
